@@ -244,22 +244,6 @@ const Home = () => {
                   Наша миссия — упростить технологии, чтобы каждый предприниматель мог самостоятельно автоматизировать свой бизнес.
                 </div>
               </div>
-              <div className="flex flex-col items-center gap-4">
-                <div className="flex gap-4 mt-0 md:mt-4">
-                  {/* WhatsApp */}
-                  <a href="https://wa.me/77767802565" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity" aria-label="WhatsApp">
-                    <img src="/whatsapp-logo.png" alt="WhatsApp" className="w-6 h-6 object-contain" />
-                  </a>
-                  {/* Telegram */}
-                  <a href="https://t.me/temirttg" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity" aria-label="Telegram">
-                    <img src="/telegram-logo.png" alt="Telegram" className="w-6 h-6 object-contain" />
-                  </a>
-                  {/* Email */}
-                  <a href="mailto:kunbassovtt@gmail.com" className="hover:opacity-80 transition-opacity" aria-label="Email">
-                    <img src="/email-icon.png" alt="Email" className="w-6 h-6 object-contain" />
-                  </a>
-                </div>
-              </div>
             </div>
             {/* Копирайт */}
             <div className="w-full text-center text-xs text-[#F1EFED]/60 font-extralight flex flex-col items-center gap-2" style={{ marginTop: '23px' }}>
